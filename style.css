@@ -1,0 +1,67 @@
+
+.color-bg-cyan{
+    color: #e5e5e5 ;
+    background-color: #0A586C;
+}
+.color-bg-main{
+    background-color: #F5F6F8;
+}
+
+.color-grey{
+      color: #9b9b9b ;
+  }
+
+.color-green {
+    color: #43BC8E;
+}
+.color-bg-green {
+    background-color: #43BC8E;
+}
+
+.rounded-xl{
+    border-radius: 30px;
+}
+
+.test{
+    border: 1px solid red;
+}
+
+
+.border-dotted{
+    border-color: #74b49d49;
+    border-style: dotted;
+    border-radius: 5px;
+
+   }
+
+   .border-dotted:hover{
+    color: lightgreen;
+   }
+
+
+
+.active::before{
+    content: "";
+    width: 3px;
+    height: 21px;
+    position: relative;
+    top: 2px;
+    left: -17px;
+    background-color: #43BC8E;
+    z-index: 1;
+    display: inline-block;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+.bell-icon::after{
+    content: "";
+    width: 7px;
+    height: 7px;
+    position: relative;
+    top: -6px;
+    left: -6px;
+    background-color: #ff4646;
+    z-index: 1;
+    display: inline-block;
+    border-radius: 100%;
+}
